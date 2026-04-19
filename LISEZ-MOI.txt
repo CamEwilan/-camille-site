@@ -1,0 +1,46 @@
+PORTFOLIO CAMILLE VILLAT — Master 2 GIMD
+==========================================
+
+Contenu du dossier :
+  - index.html                 → page d'accueil (point d'entrée du site)
+  - portfolio.html             → vue d'ensemble des 6 projets
+  - projet-*.html              → pages dédiées à chaque projet
+  - mon-parcours.html          → parcours professionnel
+  - competences.html           → 6 domaines de compétences + fil rouge
+  - bilan-reflexif.html        → bilan réflexif
+  - cv.html                    → CV (consultation + téléchargement)
+  - assets/                    → styles CSS et script JS
+  - images/                    → photos et captures d'écran des preuves
+  - downloads/                 → CV et documents PDF (preuves, dossiers pédagogiques)
+
+
+CONSULTER LE SITE EN LOCAL
+---------------------------
+Double-cliquez sur le fichier "index.html" — il s'ouvrira directement
+dans votre navigateur. Aucune installation requise.
+
+
+METTRE EN LIGNE (VPS, GitHub Pages, Netlify…)
+---------------------------------------------
+1. Uploadez l'ensemble du contenu du dossier "camille-site/"
+   à la racine de votre hébergement.
+2. L'URL d'entrée sera "index.html".
+3. Toutes les ressources (CSS, JS, images, PDF) sont en chemin
+   relatif : rien à reconfigurer.
+
+
+MODIFIER LE CONTENU
+-------------------
+Chaque page est un fichier HTML indépendant, facile à éditer
+avec n'importe quel éditeur de texte (VS Code, Sublime, etc.).
+Les styles sont centralisés dans assets/styles.css.
+
+
+FORMULAIRE DE CONTACT
+---------------------
+Le formulaire de la page d'accueil ouvre le logiciel de messagerie
+du visiteur avec un message pré-rempli adressé à camille.villat@ik.me
+(aucun serveur requis).
+
+
+© 2026 Camille Villat — Portfolio. Tous droits réservés.
