@@ -265,8 +265,17 @@ input:focus,textarea:focus{outline:2px solid rgba(140,107,79,.22);border-color:v
 
 /* Footer */
 .footer{padding:2rem 0 3rem;color:var(--muted)}
-.footer-inner{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid rgba(110,139,116,.18);padding-top:1.4rem}
-.socials{display:flex;gap:.6rem;flex-wrap:wrap}
+.footer-inner{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:.9rem;
+  text-align:center;
+  border-top:1px solid rgba(110,139,116,.18);
+  padding-top:1.4rem;
+}
+.footer-inner > div:first-child{display:flex;flex-direction:column;gap:.2rem;align-items:center}
+.socials{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center}
 .socials a{padding:.4rem .75rem;border:1px solid var(--line);border-radius:999px;background:rgba(252,250,246,.78);font-size:.9rem}
 .socials a:hover{background:rgba(220,229,218,.7)}
 .notice{font-size:.9rem;color:var(--muted)}
