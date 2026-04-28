@@ -260,8 +260,10 @@ input:focus,textarea:focus{outline:2px solid rgba(140,107,79,.22);border-color:v
 
 /* CV page */
 .cv-box{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:1.6rem}
-.pdf-preview{margin-top:2rem;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
-.pdf-preview iframe{width:100%;height:820px;border:0;display:block}
+.pdf-preview{margin-top:2rem;display:flex;flex-direction:column;gap:1.5rem}
+.pdf-preview .pdf-page{display:block;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff;transition:transform .2s ease, box-shadow .2s ease}
+.pdf-preview .pdf-page:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.pdf-preview img{width:100%;height:auto;display:block}
 
 /* Footer */
 .footer{padding:2rem 0 3rem;color:var(--muted)}
